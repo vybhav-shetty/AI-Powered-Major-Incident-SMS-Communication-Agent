@@ -2,7 +2,7 @@
 An AI-powered agent that generates concise SMS communications for Major Incidents while strictly adhering to a 160-character SMS limit and GSM-7 encoding requirements. The agent analyses incident communications, extracts relevant information, determines the communication type, and produces stakeholder-ready SMS updates suitable for enterprise incident management.
 
 ## Project Highlights
-- Reduced SMS volume by ~72% after implementation
+- Achieved a reduction of more than 70% in SMS volume following implementation.
 - Built using Claude Sonnet 4.6
 - Generates GSM-7 compliant SMS communications
 - Enforces strict 160-character limit
@@ -39,7 +39,7 @@ This agent enables rapid, consistent, and mobile-friendly incident communication
 Following implementation of the SMS Communication Agent, an analysis was performed using historical and post-implementation SMS usage data.
 
 ### Results
-- Approximately 72% reduction in SMS volume.
+- Achieved a reduction of more than 70% in SMS volume following implementation.
 - Significant reduction in SMS-related communication costs.
 - Reduced use of concatenated SMS messages.
 - Improved communication consistency across Major Incident Managers.
