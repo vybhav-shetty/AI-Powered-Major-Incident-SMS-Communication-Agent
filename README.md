@@ -1,5 +1,5 @@
 # SMS Communication Agent
-An AI-powered agent that generates concise SMS communications for Major Incidents while strictly adhering to a 160-character SMS limit and GSM-7 encoding requirements. The agent analyses incident communications, extracts relevant information, determines the communication type, and produces stakeholder-ready SMS updates suitable for enterprise incident management.
+An AI-powered Major Incident Management agent that converts detailed incident email communications into concise stakeholder SMS updates. The agent interprets incident content, identifies communication intent, extracts critical information, and generates GSM-7 compliant messages within the 160-character SMS limit.
 
 ## Project Highlights
 - Achieved a reduction of more than 70% in SMS volume following implementation.
@@ -7,10 +7,14 @@ An AI-powered agent that generates concise SMS communications for Major Incident
 - Generates GSM-7 compliant SMS communications
 - Enforces strict 160-character limit
 - Automates Major Incident SMS creation
-- Improved communication consistency and reduced manual effort
+- Improved communication consistency and significantly reduced manual effort
   
-## Model 
-Claude Sonnet 4.6
+## Technology Stack 
+- Microsoft Copilot Studio
+- Claude Sonnet 4.6
+- Generative AI
+- Prompt Engineering
+
 
 ## Key Features
 - Automatically identifies communication types:
@@ -24,16 +28,17 @@ Claude Sonnet 4.6
     Priority (P1/P2)
     Impacted IT Service
     Latest Update or Resolution
+    Next Update Time
 - Generates SMS messages using predefined templates based on communication status.
-- Ignores unnecessary content such as historical updates, preliminary root causes, and non-essential information.
+- Ignores unnecessary content such as historical updates and non-essential information.
 - Strictly enforces a 160-character limit for all SMS content.
 - Optimises wording through intelligent compression and abbreviation when required.
 - Ensures GSM-7 compatibility by preventing UCS-2 encoding and excluding unsupported characters, emojis, and special symbols.
 - Automatically appends: 'Refer to the email communication for detailed information' at the end of every communication.
-- Suppresses internal validation and analysis outputs to provide a clean stakeholder-facing message.
+- Restricts output to information explicitly provided in the incident communication, minimising the risk of AI-generated assumptions or hallucinated content.
   
 ## Business Value
-This agent enables rapid, consistent, and mobile-friendly incident communications while ensuring compliance with SMS platform limitations. It reduces manual effort, improves communication quality, and supports operational teams during high-severity incidents.
+Automates the generation of stakeholder SMS communications during major incidents, reducing manual effort and enabling faster delivery of critical updates. By converting detailed incident communications into concise, GSM-7 compliant messages, the solution improves communication consistency, operational efficiency, and overall incident response effectiveness.
 
 ## Measurable Outcomes
 Following implementation of the SMS Communication Agent, an analysis was performed using historical and post-implementation SMS usage data.
