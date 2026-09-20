@@ -1,6 +1,8 @@
 # SMS Communication Agent
 An AI-powered Major Incident Management agent that automatically transforms detailed incident email communications into concise stakeholder SMS updates. The agent interprets incident content, identifies communication intent, extracts critical information, and generates GSM-7 compliant messages within the 160-character SMS limit.
 
+[Solution Architecture](https://github.com/vybhav-shetty/AI-Powered-Major-Incident-SMS-Communication-Agent/blob/main/Solution%20Architecture)
+
 ## Project Highlights
 - Reduced SMS volume by more than 70%, delivering significant communication cost savings.
 - Eliminated manual conversion of incident emails into SMS communications.
